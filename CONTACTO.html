@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title> Contacto </title>
+</head>
+
+<body>
+	<header>
+        <div class="contenedor">
+			<img src="img/CRESTA.png" href="Index.html" class="logotipo1"  alt=""
+			data-aos="flip-left" 
+			data-aos-easing="linear"
+			data-aos-duration="800">
+			<nav>
+        <nav>
+            <strong><a href="index.html" > INICIO </a> </strong>
+            <strong><a href="CATALOGO.html"> PODCAST</a> </strong>
+            <strong><a href="CREA TU PODCAST.html"> TALLERES</a> </strong>
+            <strong><a href="SOMOS.html"> NOSOTROS</a> </strong>
+            <strong><a href="CONTACTO.html" class="activo"> CONTACTO</a></strong> 
+        </nav>
+    </div>
+	</header>
+	
+	<main>
+
+		<h1 class="somos container" style="text-align:center;font-size:5.171875vw" data-aos="zoom-in" data-aos-duration="2000"> CONTACTO </h1>
+
+		<form class="somos container containerform" style="text-align:center;font-size:1.171875vw" action="#" method="post" data-aos="fade-down" data-aos-duration="2100">
+			<fieldset>
+
+				<label for="nombre_apellido">Nombre</label><br></br>
+				<input type="text" name="nombre_apellido"><br></br>
+
+				<label for="contrasena">Email</label><br></br>
+				<input type="email" name="contrasena"><br><br>
+
+				<label for="descripcion">Queres sugerirnos algo?</label><br></br>
+				<textarea name="descripcion" rows="5"></textarea><br><br>
+
+				<label for="Que te gustaria escuchar">Que te gustaria escuchar?</label><br></br>
+				<select name="eleccion">
+					<option value="FIC">Ficcion</option>
+					<option value="DOC">Documental</option>
+					<option value="MAG">Magazine</option>
+					<option value="OTRO">Otro</option>
+				</select><br><br>
+
+
+
+				<label for="suscribe">Suscribite al newsletter:</label>
+				<input type="checkbox" name="acepta" value="1" /><br><br>
+
+				<input type="submit" name="submit" value="Enviar">
+				<input type="reset" name="reset" value="Limpiar">
+		</form>
+	</main>
+
+
+	<div class="redes" data-aos="zoom-out-down" data-aos-duration="900">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-instagram"></a>
+	</div>
+
+	<footer data-aos="zoom-out" data-aos-duration="900">
+		<h2 class="pie"> 2020 CRESTAFM </h2>
+	</footer>
+
+ <!--Scripts-->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+	 AOS.init();
+   </script>
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
+</html>
+
+<!--ENCTYPE  ACTION METHOD. input son los cuadraditos para escribir, los checkpoint
+para elegir, etc. Ahora eso depende del tipo o type por ej:email o text que se ven iguales.-->
